@@ -9,7 +9,7 @@ const Header = () => {
       <Container maxWidth="xl" >
         <Stack spacing={2} justifyContent={'space-between'} alignItems={'center'} direction={'row'} py={1.6}>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <NavLink to='/'>Logo</NavLink>
+            <NavLink to='/'>Brand Logo</NavLink>
           </Typography>
           <Box>
             {false ? <AuthMenu /> : <Stack
